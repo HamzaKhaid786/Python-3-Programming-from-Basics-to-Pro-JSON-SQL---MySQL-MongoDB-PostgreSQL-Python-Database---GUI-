@@ -1,0 +1,5 @@
+MyFile = open("append.txt","a+")
+r = MyFile.write("\nThis text is written using a+")
+MyFile.seek(0)
+content = MyFile.read()
+print(content)
